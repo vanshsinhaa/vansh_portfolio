@@ -97,7 +97,7 @@ export default function Home() {
             <h2 className="text-lg font-bold text-green-200 mb-1">
               Leadership & Activities
             </h2>
-            <div className="text-sm text-gray-300">
+            <div className="text-sm text-gray-300 mb-4">
               <span className="font-semibold text-gray-100">Hacker Devils</span>{" "}
               (Active Member), Arizona State University{" "}
               <span className="text-gray-400">Aug 2023 -- Present</span>
@@ -105,6 +105,45 @@ export default function Home() {
               Participate in hackathons, workshops, leetcode competitions to
               sharpen technical skills.
             </div>
+            {/* Free Time Section */}
+            <h3 className="text-lg font-bold text-green-200 mb-1 mt-8">
+              What I Do in My Free Time
+            </h3>
+            <ul className="text-sm text-gray-300 list-disc list-inside space-y-1">
+              <li>
+                I enjoy both playing and watching basketball. No matter if
+                you&apos;re a recruiter or a coworker, I&apos;d still give you
+                some buckets...
+              </li>
+              <li>
+                My favorite team is the{" "}
+                <span className="font-semibold text-yellow-300">LA Lakers</span>
+                .
+              </li>
+              <li>I love traveling to places I haven&apos;t been to before.</li>
+              <li>
+                This year, I&apos;d like to travel to{" "}
+                {
+                  <span className="font-semibold">
+                    {["I", "t", "a", "l", "y"].map((char, i) => {
+                      const colors = [
+                        "text-green-500",
+                        "text-white",
+                        "text-red-500",
+                        "text-green-500",
+                        "text-white",
+                      ];
+                      return (
+                        <span key={i} className={colors[i % colors.length]}>
+                          {char}
+                        </span>
+                      );
+                    })}
+                  </span>
+                }
+                .
+              </li>
+            </ul>
           </div>
         </section>
 
