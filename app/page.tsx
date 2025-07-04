@@ -11,8 +11,11 @@ export default function Home() {
         <div className="flex flex-col md:flex-row md:items-center gap-2 text-sm text-gray-400 mb-2 text-center md:text-left">
           <span>623-205-8165</span>
           <span className="hidden md:inline">|</span>
-          <a href="mailto:vsinha13@asu.edu" className="hover:underline">
-            vsinha13@asu.edu
+          <a
+            href="mailto:vanshsinhaacademics@gmail.com"
+            className="hover:underline"
+          >
+            vanshsinhaacademics@gmail.com
           </a>
           <span className="hidden md:inline">|</span>
           <Link
@@ -116,9 +119,28 @@ export default function Home() {
                 some buckets...
               </li>
               <li>
-                My favorite team is the{" "}
-                <span className="font-semibold text-yellow-300">LA Lakers</span>
-                .
+                My favorite team are the{" "}
+                <span className="font-semibold">
+                  <span
+                    style={{
+                      fontFamily: "Lakers",
+                      fontSize: "1.1em",
+                      color: "#552583",
+                    }}
+                  >
+                    Los Angeles
+                  </span>{" "}
+                  <span
+                    style={{
+                      fontFamily: "Lakers",
+                      letterSpacing: "0.05em",
+                      fontSize: "1.1em",
+                      color: "#FDB927",
+                    }}
+                  >
+                    Lakers
+                  </span>
+                </span>
               </li>
               <li>I love traveling to places I haven&apos;t been to before.</li>
               <li>

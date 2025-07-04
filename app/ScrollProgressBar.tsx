@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function ScrollProgressBar() {
   const [scroll, setScroll] = useState(0);
+  const smoothTransition = "height 0.5s cubic-bezier(.4,1.5,.6,1)";
 
   useEffect(() => {
     const onScroll = () => {
@@ -22,7 +23,7 @@ export default function ScrollProgressBar() {
         position: "fixed",
         left: 0,
         top: 0,
-        width: "5px",
+        width: "1.5px",
         height: "100vh",
         zIndex: 50,
         display: "flex",
@@ -46,7 +47,7 @@ export default function ScrollProgressBar() {
               boxShadow: "none",
               pointerEvents: "none",
               opacity: 0.5,
-              transition: "height 0.1s cubic-bezier(.4,2,.6,1)",
+              transition: smoothTransition,
             }}
           />
           {/* Progress bar with subtle glow, grows with scroll */}
@@ -57,7 +58,7 @@ export default function ScrollProgressBar() {
               background: "#34d399",
               boxShadow: "0 0 8px 2px #34d39988, 0 0 16px 4px #34d39944",
               borderRadius: "8px",
-              transition: "height 0.1s cubic-bezier(.4,2,.6,1)",
+              transition: smoothTransition,
             }}
           />
         </>
