@@ -4,11 +4,11 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-[#181c1f] text-[#d1d5db] font-mono px-4 py-10 flex flex-col items-center">
       {/* Header */}
-      <header className="w-full max-w-4xl flex flex-col items-center mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-green-300 mb-1">
-          Hi, I'm Vansh Sinha 👋
+      <header className="w-full max-w-5xl flex flex-col items-center mb-10">
+        <h1 className="text-3xl md:text-4xl font-bold text-green-300 mb-1 text-center">
+          Hi, I'm Vansh 👋
         </h1>
-        <div className="flex flex-col md:flex-row md:items-center gap-2 text-sm text-gray-400 mb-2">
+        <div className="flex flex-col md:flex-row md:items-center gap-2 text-sm text-gray-400 mb-2 text-center md:text-left">
           <span>623-205-8165</span>
           <span className="hidden md:inline">|</span>
           <a href="mailto:vsinha13@asu.edu" className="hover:underline">
@@ -34,9 +34,9 @@ export default function Home() {
       </header>
 
       {/* Main Content */}
-      <main className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-8">
+      <main className="w-full max-w-5xl flex flex-col md:flex-row gap-8 md:gap-0">
         {/* Left Column */}
-        <section className="flex flex-col gap-8">
+        <section className="flex-1 flex flex-col gap-8 pr-0 md:pr-10">
           {/* About */}
           <div>
             <h2 className="text-lg font-bold text-green-200 mb-1">About</h2>
@@ -91,10 +91,28 @@ export default function Home() {
               </li>
             </ul>
           </div>
+
+          {/* Leadership & Activities */}
+          <div>
+            <h2 className="text-lg font-bold text-green-200 mb-1">
+              Leadership & Activities
+            </h2>
+            <div className="text-sm text-gray-300">
+              <span className="font-semibold text-gray-100">Hacker Devils</span>{" "}
+              (Active Member), Arizona State University{" "}
+              <span className="text-gray-400">Aug 2023 -- Present</span>
+              <br />
+              Participate in hackathons, workshops, leetcode competitions to
+              sharpen technical skills.
+            </div>
+          </div>
         </section>
 
+        {/* Vertical Divider */}
+        <div className="hidden md:block w-px bg-gray-700 mx-6" />
+
         {/* Right Column */}
-        <section className="flex flex-col gap-8">
+        <section className="flex-1 flex flex-col gap-8 pl-0 md:pl-10">
           {/* Experience */}
           <div>
             <h2 className="text-lg font-bold text-green-200 mb-1">
@@ -216,21 +234,6 @@ export default function Home() {
                   Next.js, Firebase Auth, and GCP backend services.
                 </li>
               </ul>
-            </div>
-          </div>
-
-          {/* Leadership & Activities */}
-          <div>
-            <h2 className="text-lg font-bold text-green-200 mb-1">
-              Leadership & Activities
-            </h2>
-            <div className="text-sm text-gray-300">
-              <span className="font-semibold text-gray-100">Hacker Devils</span>{" "}
-              (Active Member), Arizona State University{" "}
-              <span className="text-gray-400">Aug 2023 -- Present</span>
-              <br />
-              Participate in hackathons, workshops, leetcode competitions to
-              sharpen technical skills.
             </div>
           </div>
         </section>
