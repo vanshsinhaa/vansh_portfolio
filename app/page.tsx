@@ -6,7 +6,7 @@ export default function Home() {
       {/* Header */}
       <header className="w-full max-w-5xl flex flex-col items-center mb-10">
         <h1 className="text-3xl md:text-4xl font-bold text-green-300 mb-1 text-center">
-          Hi, I'm Vansh 👋
+          Hi, I&apos;m Vansh 👋
         </h1>
         <div className="flex flex-col md:flex-row md:items-center gap-2 text-sm text-gray-400 mb-2 text-center md:text-left">
           <span>623-205-8165</span>
@@ -41,7 +41,7 @@ export default function Home() {
           <div>
             <h2 className="text-lg font-bold text-green-200 mb-1">About</h2>
             <p className="text-gray-300 text-sm">
-              I’m a Computer Science student at ASU and a freelance web
+              I&apos;m a Computer Science student at ASU and a freelance web
               designer. I love building scalable data systems, modern web apps,
               and elegant user experiences. I enjoy hackathons, open source, and
               learning new tech.
@@ -216,7 +216,7 @@ export default function Home() {
               <ul className="list-disc list-inside text-sm text-gray-300 mt-1 space-y-1">
                 <li>
                   Designing an AI-powered SaaS platform through fine-tuning
-                  LLM's to help foreign travelers prepare for a smooth
+                  LLM&apos;s to help foreign travelers prepare for a smooth
                   transition to the U.S.
                 </li>
                 <li>
