@@ -6,7 +6,7 @@ export default function Home() {
       {/* Header */}
       <header className="w-full max-w-4xl flex flex-col items-center mb-8">
         <h1 className="text-3xl md:text-4xl font-bold text-green-300 mb-1">
-          Hi, I'm Vansh Sinha 👋
+          Hi, I&apos;m Vansh Sinha 👋
         </h1>
         <div className="flex flex-col md:flex-row md:items-center gap-2 text-sm text-gray-400 mb-2">
           <span>623-205-8165</span>
