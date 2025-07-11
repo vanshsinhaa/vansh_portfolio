@@ -24,11 +24,11 @@ export default function Home() {
           </Link>
           <span className="hidden md:inline">|</span>
           <Link
-            href="https://github.com/vanshsinha18"
+            href="https://github.com/vanshsinhaa"
             className="hover:underline"
             target="_blank"
           >
-            github.com/vanshsinha18
+            github.com/vanshsinhaa
           </Link>
         </div>
       </header>
