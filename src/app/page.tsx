@@ -160,6 +160,36 @@ export default function Home() {
             <h2 className="text-lg font-bold text-green-200 mb-1">Projects</h2>
             <div className="mb-2">
               <div className="font-semibold text-gray-100">
+                CodeGraveyardAPI – AI-Powered GitHub Repository Discovery Platform
+              </div>
+              <div className="text-gray-400 text-xs">
+                FastAPI, Python, Docker, Heroku, SQLite, Sentence Transformers, Stripe API | 2025
+              </div>
+              <ul className="list-disc list-inside text-sm text-gray-300 mt-1 space-y-1">
+                <li>
+                  Developed a production-ready REST API using FastAPI and Python, 
+                  processing 1000+ requests/hour with real-time GitHub repository data.
+                </li>
+                <li>
+                  Implemented secure authentication with encrypted API keys, rate limiting, 
+                  and multi-tier subscription plans integrated with Stripe payments.
+                </li>
+                <li>
+                  Built semantic search functionality using Sentence Transformers and 
+                  scikit-learn, enabling meaning-based repository discovery.
+                </li>
+                <li>
+                  Deployed on Heroku with Docker containerization, health checks, 
+                  analytics tracking, and SQLite database for persistence.
+                </li>
+                <li>
+                  Designed scalable architecture supporting enterprise features such as 
+                  automated subscription management and usage monitoring.
+                </li>
+              </ul>
+            </div>
+            <div className="mb-2">
+              <div className="font-semibold text-gray-100">
                 Streaming Stock Data Pipeline
               </div>
               <div className="text-gray-400 text-xs">
